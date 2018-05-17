@@ -21,6 +21,7 @@ public class VisitorController {
         if(visitor==null){
             visitor=new Visitor();
             visitor.setIp(ip);
+            visitor.setDescription("没问题");
             visitor.setTimes(1);
         }else {
             visitor.setTimes(visitor.getTimes()+1);
